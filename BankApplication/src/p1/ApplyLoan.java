@@ -35,6 +35,7 @@ public class ApplyLoan extends HttpServlet {
 			catch(Exception e)
 			{
 				e.printStackTrace();
+				System.out.println("cannot apply loan");
 			}
 		}
 	}
